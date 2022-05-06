@@ -4,7 +4,8 @@ const express = require('express');
 const authorsRouter = express.Router();
 // const authors = require('../data/authors');
 const authordata = require('../model/AuthorModel');
-const authors = require('../data/authors');
+const authors= require('../data/authors')
+
 
 
 //router to render authors page
@@ -23,7 +24,7 @@ authorsRouter.get('/',function(req,res){
 
 
 //router to render add author page
-authorsRouter.get('/addauthor',function(req,res){
+authorsRouter.get('/',function(req,res){
     res.render('addauthor',{});
 
 });

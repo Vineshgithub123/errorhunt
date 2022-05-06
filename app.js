@@ -5,7 +5,7 @@
 const express = require('express'); 
 const path = require('path'); 
 const cors = require('cors');
-
+// body parser was not defined
 const bodyParser= require('body-parser')
 
 
