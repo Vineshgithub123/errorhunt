@@ -12,7 +12,7 @@ signupRouter.get("/adduser",function(req,res){
     
     var newuser = {
 
-        //10. here params used as a depricated method,so used as "params"
+
         "uid":req.param("uid"),
         "pwd":req.param("pwd")
     };

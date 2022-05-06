@@ -12,7 +12,9 @@ loginRouter.get('/',function(req,res){
 loginRouter.get("/check",function(req,res){
     var checkuser = {
 
-        //10. here params used as a depricated method,so used as "params"
+// 10. here data is called using deprecated methd
+        //6. here the datas uid and pwd didnt call in string
+        
         "uid":req.param("uid"),
         "pwd":req.param("pwd")
     };
